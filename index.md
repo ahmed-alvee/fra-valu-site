@@ -10,12 +10,12 @@ permalink: /
 <section class="hero" id="top">
   <div class="wrap hero-inner">
     <h1>I turn manual processes<br><span class="accent">into production systems.</span></h1>
-    <p class="hero-lead">I spent four years building data pipelines across five markets, and now do that work on my own from Rotterdam.</p>
+    <p class="hero-lead">I spent over three years building data pipelines and integrations across five markets, and now do that work on my own from Rotterdam.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="#contact">Get in touch</a>
       <a class="btn btn-outline-inverse" href="#work">See the work</a>
     </div>
-    <p class="hero-meta">Available for contract work now &middot; Permanent roles without sponsorship after I graduate</p>
+    <p class="hero-meta">Available for contract work now</p>
   </div>
 </section>
 
@@ -49,30 +49,30 @@ permalink: /
     <div class="service-grid">
       <div class="service-card">
         <h3>Clinical records, thirty clinics</h3>
-        <p>Thirty clinics sent monthly patient records. Every clinic used its own format, and staff fixed each file by hand.</p>
-        <p class="card-result">An hour a file became six to ten minutes.</p>
+        <p>More than thirty clinics sent CSV and Excel files with different column and package names, and a person cleaned each file by hand in about an hour.</p>
+        <p class="card-result">An hour a file became six to ten minutes, including human review.</p>
         <p class="card-meta">Mesh Bio, Singapore &middot; LangGraph, Claude on Bedrock, Pydantic, ChromaDB</p>
       </div>
 
       <div class="service-card">
-        <h3>Laboratory data handover</h3>
-        <p>Results moved between systems slowly enough that a batch took a week to come back.</p>
-        <p class="card-result">A week became a day.</p>
-        <p class="card-meta">Mesh Bio, Singapore &middot; Python, AWS Lambda, SQS, SNS, Step Functions</p>
+        <h3>Onboarding new labs and clinics</h3>
+        <p>Every new lab and clinic needed its own hardcoded Lambda, which meant copying code and testing incoming data against it. I rebuilt it as one pipeline driven by configuration. It is still in use across Hong Kong, the Philippines, Singapore, Malaysia and Indonesia.</p>
+        <p class="card-result">Onboarding improved from 3-5 days to under 1 day.</p>
+        <p class="card-meta">Mesh Bio, Singapore &middot; AWS Lambda, SQS, SNS, EventBridge Pipes, Step Functions</p>
       </div>
 
       <div class="service-card">
-        <h3>Pipelines across five markets</h3>
-        <p>I led the team that built and ran our healthcare data pipelines. Most days I turned vague requests into clear specs engineers could build from.</p>
-        <p class="card-result">Clinical workflow output rose 80%.</p>
-        <p class="card-meta">Mesh Bio, Singapore &middot; Leading a team of engineers</p>
+        <h3>A first overseas customer, and a team of three</h3>
+        <p>The first overseas customer had a deadline and its own way of working. I recommended an API-based workflow, cut the scope to fit, and led three weeks of on-site deployment. I later built and led a team of three solutions engineers, who took over and expanded the APIs and pipelines.</p>
+        <p class="card-result">The customer became a lighthouse account with follow-on regional projects.</p>
+        <p class="card-meta">Mesh Bio, Singapore &middot; Leading a team of 3 solutions engineers</p>
       </div>
 
       <div class="service-card">
         <h3>Portfolio monitoring</h3>
-        <p>An impact investor tracked twenty-one companies by hand and needed to reach nearly fifty with the same small team. We designed the workflow, then built agents that pull clean data out of messy documents.</p>
-        <p class="card-result">Projected to cut monitoring time by about 45%.</p>
-        <p class="card-meta">With four classmates, Rotterdam School of Management &middot; Gemini and Claude agents</p>
+        <p>An impact investor monitored its portfolio by hand. We defined the problem with the client, designed a five-stage monitoring workflow, and built AI tools and agents as proofs of concept and an MVP across all five stages, from data clean-up to reporting. I pitched the recommendations to the investor's leadership.</p>
+        <p class="card-result">Projected to improve monitoring time by about 45%.</p>
+        <p class="card-meta">With four classmates, Rotterdam School of Management &middot; Gemini, Claude and Tally.so</p>
       </div>
     </div>
 
@@ -82,8 +82,7 @@ permalink: /
         <h3>Electives navigator</h3>
         <p>Every year my school hands students a stack of PDFs: a course overview, a schedule, an outline per class. None of it is a calendar, so everyone copies the dates across by hand and hopes nothing clashes.</p>
         <p>I built a tool that handles all of it at once. You pick your courses and see them on a real calendar, clashes are flagged automatically, and instructor backgrounds are a click away.</p>
-        <p><b>My classmates use it now</b>, and I am working with RSM to keep it running for the years after mine. Built with the Pi coding agent.</p>
-        <p><a class="btn btn-outline" href="https://alvee1994.github.io/mba27-electives/" rel="noopener" target="_blank">Open the navigator</a></p>
+                <p><a class="btn btn-outline" href="https://ahmed-alvee.github.io/mba27-electives/" rel="noopener" target="_blank">Open the navigator</a></p>
       </div>
       <figure class="shots">
         <a href="{{ '/assets/hire-electives-calendar.jpg' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/hire-electives-calendar.jpg' | relative_url }}" alt="Electives navigator calendar view, showing a term's course sessions colour-coded by subject"></a>
@@ -96,8 +95,8 @@ permalink: /
       <div>
         <p class="eyebrow">Before the data work</p>
         <h3>Robots, and the software around them</h3>
-        <p>At SUTD in Singapore I helped build the navigation system for a robot that drives itself: the part that senses what is around it and decides where to go.</p>
-        <p>Before that I wrote a Python library for wearable data and trained models to tell seven hand gestures apart. Then I built the interface and core logic for a surgical robot in C++ and Qt.</p>
+        <p>At SUTD in Singapore I mapped two floors and five rooms in under six minutes with a system of twelve or more robots, owning the locomotion code, and wrote C++ for a legged mapping robot. I built a machine-learning pipeline that recognized seven hand gestures to command unmanned vehicles, and designed a custom Bluetooth board for a knitted knee-monitoring wearable, published in Advanced Healthcare Materials in 2023.</p>
+        <p>Then, at a Singapore medtech company, I owned the annotation and user-interaction layer of the imaging software for a robot that ablates cancer cells with focused ultrasound, including DICOM export.</p>
       </div>
       <div class="video-frame">
         <iframe src="https://www.youtube-nocookie.com/embed/qfH4ocXLslI" title="Autonomous robot navigation, SUTD" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
@@ -146,7 +145,7 @@ permalink: /
       </div>
       <div class="spec-row">
         <dt>Cloud and infrastructure</dt>
-        <dd>AWS Lambda, SQS, SNS, Step Functions and Terraform. I am an AWS Certified Solutions Architect.</dd>
+        <dd>AWS Lambda, SQS, SNS, Step Functions and Terraform. I am an AWS Certified Solutions Architect – Associate.</dd>
       </div>
     </dl>
   </div>
@@ -156,7 +155,7 @@ permalink: /
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Working with me</p>
-      <h2>You can bring me in on contract today, or permanently once I graduate.</h2>
+      <h2>You can bring me in on contract today.</h2>
     </div>
 
     <ul class="timeline">
@@ -167,10 +166,6 @@ permalink: /
       <li class="tl-item">
         <span class="tl-when">March 2027</span>
         <p class="tl-what">I graduate from Rotterdam School of Management.</p>
-      </li>
-      <li class="tl-item">
-        <span class="tl-when">After graduation</span>
-        <p class="tl-what"><b>Permanent roles open up.</b> There is no work permit for an employer to sponsor and no salary threshold to clear.</p>
       </li>
     </ul>
 
@@ -185,7 +180,7 @@ permalink: /
       </div>
       <div class="spec-row">
         <dt>Earlier career</dt>
-        <dd>I spent four years at Mesh Bio in Singapore and left as a Solutions Architect leading a team of engineers. Before that I built software for robotic surgical systems in C++ and Qt, and started out doing wearable sensor research at SUTD in Singapore.</dd>
+        <dd>I spent three and a half years at Mesh Bio in Singapore, from 2022 to 2025, and became a Solutions Architect leading a team of three solutions engineers. Before that I was a software engineer at a Singapore medtech company and a research assistant in robotics and wearable systems at SUTD.</dd>
       </div>
     </dl>
   </div>
