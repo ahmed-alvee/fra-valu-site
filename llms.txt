@@ -6,9 +6,22 @@ Fravalu audits how a business actually runs, produces a ranked and costed plan f
 
 Fixed price per workflow, agreed before building starts. Built with widely used tools inside the client's existing systems; the client owns the code.
 
+## Results
+
+Done as a Solutions Architect at Mesh Bio (Singapore) and in an MBA consulting project, not as Fravalu client work.
+
+- Clinic data: time per file improved from about 1 hour to 6-10 minutes, including human review, for more than 30 clinics. The first version had at least one attribute wrong in 70% of records; after the fix, 99% of the data went to the live database.
+- Onboarding: new lab and clinic onboarding improved from 3-5 days to under 1 day with a configuration-driven AWS pipeline that handled about 10,000 records an hour in Singapore and is still in use across five markets.
+- First overseas customer: recommended an API-based workflow, scoped it to the deadline and led three weeks of on-site deployment; the customer became a lighthouse account with follow-on regional projects. Later built and led a team of three solutions engineers.
+- Portfolio monitoring: designed a five-stage AI monitoring workflow for an impact investor with a five-person MBA team, projected to improve monitoring time by about 45%.
+
+## Founder
+
+Ahmed Alvee. Three and a half years at Mesh Bio in Singapore (2022 to 2025), where he became a Solutions Architect leading a team of three solutions engineers. AWS Certified Solutions Architect - Associate. Completing an MBA at Rotterdam School of Management.
+
 ## Pages
 
-- [Home](https://fra-valu.com/): what I do, how I work, service scope, FAQ, contact
+- [Home](https://fra-valu.com/): results, the offer, how it works, who it is for, about, FAQ, contact
 
 ## Contact
 

@@ -53,7 +53,7 @@ a:focus-visible,
 .skip-link:focus{top:12px}
 
 section[id],div[id="top"]{
-  scroll-margin-top:146px
+  scroll-margin-top:90px
 }
 
 .eyebrow{
@@ -110,7 +110,7 @@ header{
   max-inline-size:none;
 }
 .hero h1 .accent{color:var(--mint)}
-.hero-lead{font-size:clamp(19px,2.2vw,28px);line-height:1.45;color:var(--mint);max-width:36ch;margin:0 0 40px;font-weight:400}
+.hero-lead{font-size:clamp(18px,2vw,22px);line-height:1.5;color:var(--mint);max-width:48ch;margin:0 0 32px;font-weight:400}
 .cta-row{display:flex;flex-wrap:wrap;justify-content:center;gap:14px}
 .hero-meta{
   margin:44px 0 0;
@@ -264,7 +264,8 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:52px 0 40px;font
 
 /* work cards — result line carries the number, meta line carries where and
    what it was built with. No icons, no numbering. */
-.card-result{font-weight:600;color:var(--ink)!important;font-size:16px!important}
+.card-result{font-family:'General Sans',sans-serif;font-weight:600;color:var(--accent)!important;font-size:21px!important;line-height:1.3;letter-spacing:-.01em}
+.service-card p b{color:var(--ink);font-weight:600}
 .card-meta{font-size:13px!important;color:var(--muted)!important;margin:14px 0 0!important;
   padding-top:14px;border-top:1px solid var(--line)}
 
@@ -330,3 +331,13 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:52px 0 40px;font
   .feature{grid-template-columns:1fr;gap:24px}
   .shots img{height:110px}
 }
+
+/* hero proof strip, offer and how notes, about split */
+.proof-strip{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 32px;list-style:none;margin:36px 0 0;padding:0;
+  color:var(--mint);font-weight:600;font-size:15px}
+.offer-note,.how-note{margin:28px 0 0;color:var(--slate);max-width:70ch;font-size:16px}
+.how-note b{color:var(--ink);font-weight:600}
+.about-split{display:grid;grid-template-columns:220px 1fr;gap:40px;align-items:start}
+.about-photo{height:auto}
+.about-lead{font-size:19px;line-height:1.6;color:var(--ink);margin:0;max-width:66ch}
+@media (max-width:760px){.about-split{grid-template-columns:1fr;gap:24px}}

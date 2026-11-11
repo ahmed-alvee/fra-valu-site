@@ -25,7 +25,7 @@
     "name": "Fravalu",
     "url": "https://fra-valu.com",
     "logo": "{{ '/assets/logo-square.png' | absolute_url }}",
-    "description": "I turn manual processes into production systems. Contract AI and workflow automation, from Rotterdam.",
+    "description": "Fixed-fee audit of repeated work, then a fixed-price build of the workflow that pays back first. AI and workflow automation for SMEs, from Rotterdam.",
     "email": "contact@fra-valu.com",
     "identifier": {
       "@type": "PropertyValue",
@@ -38,8 +38,31 @@
       "addressCountry": "NL"
     },
     "areaServed": "NL",
+    "founder": {
+      "@type": "Person",
+      "name": "Ahmed Alvee",
+      "jobTitle": "Founder, Solutions Architect",
+      "alumniOf": [
+        {"@type": "CollegeOrUniversity", "name": "Singapore University of Technology and Design"},
+        {"@type": "CollegeOrUniversity", "name": "Rotterdam School of Management, Erasmus University"}
+      ],
+      "hasCredential": "AWS Certified Solutions Architect - Associate",
+      "sameAs": [
+        "https://www.linkedin.com/in/alveeahmed/",
+        "https://github.com/ahmed-alvee"
+      ]
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fixed-fee audit", "description": "A ranked, costed list of the repeated work worth automating. The list is the client's to keep."}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fixed-price build", "description": "The workflow that pays back first, built for a price agreed before work starts. The code is the client's to keep."}}
+      ]
+    },
     "sameAs": [
-      "https://www.linkedin.com/company/fravalu"
+      "https://www.linkedin.com/company/fravalu",
+      "https://www.linkedin.com/in/alveeahmed/"
     ]
   }
   </script>
@@ -51,7 +74,7 @@
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,700&display=swap" rel="stylesheet">
   <link rel="icon"
     href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg transform='rotate(-18 50 50)'%3E%3Cpolygon points='97,50 6,10 6,42 64,50 6,58 6,90' fill='%2300684A'/%3E%3Cpolygon points='97,50 6,58 6,90' fill='%23112733'/%3E%3C/g%3E%3C/svg%3E">
-  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}?v=20260903c">
+  <link rel="stylesheet" href="{{ '/assets/site.css' | relative_url }}?v=20261111a">
 </head>
 
 <body>
@@ -75,11 +98,12 @@
       </nav>
       {% else %}
       <nav class="nav-links" aria-label="Primary">
+        <a href="{{ '/' | relative_url }}#work">Results</a>
+        <a href="{{ '/' | relative_url }}#offer">The offer</a>
+        <a href="{{ '/' | relative_url }}#how">How it works</a>
         <a href="{{ '/' | relative_url }}#about">About</a>
-        <a href="{{ '/' | relative_url }}#work">Work</a>
-        <a href="{{ '/' | relative_url }}#how">How I work</a>
-        <a href="{{ '/' | relative_url }}#hire">Working with me</a>
-        <a class="btn btn-primary" href="{{ '/' | relative_url }}#contact">Get in touch</a>
+        <a href="{{ '/' | relative_url }}#faq">Questions</a>
+        <a class="btn btn-primary" href="https://calendly.com/alvee-fra-valu/30min" rel="noopener" target="_blank">Book a call</a>
       </nav>
       {% endif %}
     </div>
@@ -121,15 +145,16 @@
       </div>
       <div class="foot-col">
         <h4>Work</h4>
-        <a href="{{ '/' | relative_url }}#work">Work</a>
-        <a href="{{ '/' | relative_url }}#how">How I work</a>
-        <a href="{{ '/' | relative_url }}#hire">Working with me</a>
+        <a href="{{ '/' | relative_url }}#work">Results</a>
+        <a href="{{ '/' | relative_url }}#offer">The offer</a>
+        <a href="{{ '/' | relative_url }}#how">How it works</a>
       </div>
       <div class="foot-col">
         <h4>Contact</h4>
         <a href="{{ '/' | relative_url }}#about">About me</a>
         <a href="mailto:contact@fra-valu.com">contact@fra-valu.com</a>
-        <a href="https://www.linkedin.com/company/fravalu" rel="noopener" target="_blank">linkedin.com/company/fravalu</a>
+        <a href="https://www.linkedin.com/in/alveeahmed/" rel="noopener" target="_blank">Ahmed Alvee on LinkedIn</a>
+        <a href="https://www.linkedin.com/company/fravalu" rel="noopener" target="_blank">Fravalu on LinkedIn</a>
       </div>
     </div>
     {% endif %}
