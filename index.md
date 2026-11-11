@@ -2,20 +2,20 @@
 layout: default
 title: Ahmed Alvee, AI and workflow automation
 description: >-
-  I turn manual processes into production systems. Available for contract
-  work now, through my KVK-registered practice in Rotterdam.
+  I turn manual processes into production systems. Fixed-scope engagements
+  through my KVK-registered practice in Rotterdam.
 permalink: /
 ---
 
 <section class="hero" id="top">
   <div class="wrap hero-inner">
     <h1>I turn manual processes<br><span class="accent">into production systems.</span></h1>
-    <p class="hero-lead">I spent over three years building data pipelines and integrations across five markets, and now do that work on my own from Rotterdam.</p>
+    <p class="hero-lead">I spent over three years building data pipelines and integrations across five markets. Fravalu brings that work to businesses with no in-house IT team.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="#contact">Get in touch</a>
       <a class="btn btn-outline-inverse" href="#work">See the work</a>
     </div>
-    <p class="hero-meta">Available for contract work now</p>
+    <p class="hero-meta">Taking on new engagements</p>
   </div>
 </section>
 
@@ -155,28 +155,25 @@ permalink: /
   <div class="wrap">
     <div class="section-head">
       <p class="eyebrow">Working with me</p>
-      <h2>You can bring me in on contract today.</h2>
+      <h2>Scoped by the outcome, priced before work starts.</h2>
     </div>
 
-    <ul class="timeline">
-      <li class="tl-item is-now">
-        <span class="tl-when">Now</span>
-        <p class="tl-what"><b>I am available for contract work and can start immediately.</b> Engagements are invoiced through Fravalu, my KVK-registered practice in Rotterdam.</p>
-      </li>
-      <li class="tl-item">
-        <span class="tl-when">March 2027</span>
-        <p class="tl-what">I graduate from Rotterdam School of Management.</p>
-      </li>
-    </ul>
-
     <dl class="spec">
+      <div class="spec-row">
+        <dt>Fixed-fee audit</dt>
+        <dd>I log how your team spends its week, price each repeated task, and hand you a ranked list of what is worth automating. The list is yours to keep.</dd>
+      </div>
+      <div class="spec-row">
+        <dt>Fixed-price build</dt>
+        <dd>When the list names the workflow that pays back first, I build it for a price agreed before work starts, inside the systems you already run. The code is yours to keep.</dd>
+      </div>
       <div class="spec-row">
         <dt>Where I am based</dt>
         <dd>Rotterdam, and I work on site when a project calls for it.</dd>
       </div>
       <div class="spec-row">
-        <dt>Fixed-fee audit</dt>
-        <dd>I log how your team spends its week, price each repeated task, and hand you a ranked list of what is worth automating. The list is yours to keep.</dd>
+        <dt>The practice</dt>
+        <dd>Engagements are invoiced through Fravalu, my KVK-registered practice in Rotterdam.</dd>
       </div>
       <div class="spec-row">
         <dt>Earlier career</dt>
